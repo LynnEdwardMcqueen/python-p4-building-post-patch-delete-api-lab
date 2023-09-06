@@ -1,11 +1,12 @@
 import json
 from os import environ
-import re
+
 
 from flask import request
 
 from app import app
 from models import db, Bakery, BakedGood
+
 
 class TestApp:
     '''Flask application in flask_app.py'''
